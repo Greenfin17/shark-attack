@@ -157,6 +157,7 @@ const followTheLight = () => {
   let victim = getVictim();
   console.warn(victim);
   let i = 0;
+  // reduce the probability selecting an already deceased student.
   while (studentArr[victim].isDead === true && i < 24) {
     victim = getVictim();
     i += 1;
