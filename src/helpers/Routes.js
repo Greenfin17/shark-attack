@@ -12,19 +12,25 @@ const Routes = ({
 }) => (
   <div>
     <Switch>
-      <Route path='/sharktank'
-        component={SharkTank}
-        studentArr={studentArr}
-        setStudentArr={setStudentArr}
-        setDeceasedArr={setDeceasedArr} />
+      <Route path='/shark-tank'
+        component={() => <SharkTank
+          studentArr={studentArr}
+          setStudentArr={setStudentArr}
+          setDeceasedArr={setDeceasedArr}
+        /> }
+      />
       <Route path='/graveyard'
-        component={Graveyard}
-        deceasedArr={deceasedArr} />
+        component={() => <Graveyard
+          deceasedArr={deceasedArr}
+        /> }
+      />
       <Route path='*'
-        component={SharkTank}
-        studentArr={studentArr}
-        setStudentArr={setStudentArr}
-        setDeceasedArr={setDeceasedArr} />
+        component={() => <SharkTank
+          studentArr={studentArr}
+          setStudentArr={setStudentArr}
+          setDeceasedArr={setDeceasedArr}
+        /> }
+      />
     </Switch>
   </div>
 );
