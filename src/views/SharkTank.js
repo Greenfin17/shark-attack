@@ -10,12 +10,14 @@ const SharkTank = ({
   setDeceasedArr
 }) => (
   <div className='shark-tank-container'>
+    <h1>Shark Tank</h1>
     <div className='shark-tank d-flex flex-row flex-wrap justify-content-around'>
       {studentArr.map((student) => (
         <LiveStudent
           key={student.id}
           firstName={student.firstName}
           lastName={student.lastName}
+          gender={student.gender}
         />
       ))}
     </div>
