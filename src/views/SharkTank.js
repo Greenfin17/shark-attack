@@ -12,7 +12,7 @@ const SharkTank = ({
   <div className='shark-tank-container'>
     <h1>Shark Tank</h1>
     <div className='shark-tank d-flex flex-row flex-wrap justify-content-around'>
-      {studentArr.map((student) => (
+      {studentArr && studentArr.map((student) => (
         <LiveStudent
           key={student.id}
           firstName={student.firstName}
@@ -30,9 +30,9 @@ const SharkTank = ({
 );
 
 SharkTank.propTypes = {
-  studentArr: PropTypes.array.isRequired,
-  setStudentArr: PropTypes.func.isRequired,
-  setDeceasedArr: PropTypes.func.isRequired
+  studentArr: PropTypes.array,
+  setStudentArr: PropTypes.func,
+  setDeceasedArr: PropTypes.func
 };
 
 export default SharkTank;

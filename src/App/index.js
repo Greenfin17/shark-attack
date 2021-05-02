@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.scss';
-import SharkTank from '../views/SharkTank';
-import GraveYard from '../views/Graveyard';
+import Routes from '../helpers/Routes';
 import { dearlyBeloved, livingStudents } from '../helpers/data/studentsData';
+import Navbar from '../components/Navbar';
 
 function App() {
   const [studentArr, setStudentArr] = useState([]);
@@ -11,19 +12,20 @@ function App() {
   useEffect(() => {
     setStudentArr(livingStudents());
     setDeceasedArr(dearlyBeloved());
-    console.warn(deceasedArr);
+    console.warn(studentArr);
   }, []);
 
   return (
     <div className='App'>
-      <SharkTank
-        studentArr={studentArr}
-        setStudentArr={setStudentArr}
-        setDeceasedArr={setDeceasedArr}
-      />
-      <GraveYard
-        deceasedArr={deceasedArr}
-      />
+      <Router>
+        <Navbar />
+          <Routes
+            studentArr={studentArr}
+            setStudentArr={setStudentArr}
+            deceasedArr={deceasedArr}
+            setDeceasedArr={setDeceasedArr}
+          />
+      </Router>
     </div>
   );
 }

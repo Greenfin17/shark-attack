@@ -8,7 +8,7 @@ const Graveyard = ({ deceasedArr }) => (
     <h1>Graveyard</h1>
     <img src={graveyard} alt='Graveyard background image' />
     <div className='shark-tank d-flex flex-row flex-wrap justify-content-around'>
-      {deceasedArr.map((student) => (
+      {deceasedArr && deceasedArr.map((student) => (
         <Tombstone
           key={student.id}
           firstName={student.firstName}
@@ -20,7 +20,7 @@ const Graveyard = ({ deceasedArr }) => (
 );
 
 Graveyard.propTypes = {
-  deceasedArr: PropTypes.array.isRequired
+  deceasedArr: PropTypes.array
 };
 
 export default Graveyard;

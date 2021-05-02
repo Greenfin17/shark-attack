@@ -19,8 +19,8 @@ const SharkAttack = ({
 };
 
 SharkAttack.propTypes = {
-  setStudentArr: PropTypes.func.isRequired,
-  setDeceasedArr: PropTypes.func.isRequired
+  setStudentArr: PropTypes.func,
+  setDeceasedArr: PropTypes.func
 };
 
 export default SharkAttack;
