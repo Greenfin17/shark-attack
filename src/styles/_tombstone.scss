@@ -1,0 +1,27 @@
+// _variables.scss
+
+@import './variables';
+
+div.graveyard-container {
+  background-color: $gravyardColor;
+  margin-bottom: -40px;
+}
+div.tombstone {
+  background-image: url('../assets/images/stone-alpha.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: $gravyardColor;
+  width: 155px;
+  height: 225px;
+  border: none;
+  border-radius: 40px;
+}
+
+.tombstone .card-body {
+  position: relative;
+}
+.tombstone h5 {
+  position: absolute;
+  top: 45%;
+  width: 70%;
+}
