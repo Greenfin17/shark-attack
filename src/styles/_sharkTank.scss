@@ -4,6 +4,9 @@
   background-color: $favColor;
 }
 
+.shark-tank-header {
+  margin: 50px 0;
+}
 .shark-tank-container img.header-fin-left {
   height: 4rem;
   float: left;
@@ -39,4 +42,8 @@ h1.shark-tank-title {
 
 div.shark-tank {
   margin: 40px 80px;
+}
+
+.graveyard-container img {
+  width: 100%;
 }

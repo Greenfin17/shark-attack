@@ -11,11 +11,12 @@ const SharkTank = ({
   setDeceasedArr
 }) => (
   <div className='shark-tank-container'>
-    <div className='shark-tank=header'>
+    <div className='shark-tank-header'>
       <img className='header-fin-left' src={sharkfin} />
       <h1 className='shark-tank-title'> Shark Tank</h1>
       <img className='header-fin-right' src={sharkfin} />
     </div>
+    <h5>Swim at your own risk... </h5>
     <div className='shark-tank d-flex flex-row flex-wrap justify-content-around'>
       {studentArr.map((student) => (
         <LiveStudent
