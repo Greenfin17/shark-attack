@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import LiveStudent from '../components/cards/LiveStudent';
 import SharkAttack from '../components/buttons/SharkAttack';
 import { followTheLight } from '../helpers/data/studentsData';
+import sharkfin from '../assets/images/shark-fin-alpha.png';
 
 const SharkTank = ({
   studentArr,
@@ -10,7 +11,11 @@ const SharkTank = ({
   setDeceasedArr
 }) => (
   <div className='shark-tank-container'>
-    <h1>Shark Tank</h1>
+    <div className='shark-tank=header'>
+      <img className='header-fin-left' src={sharkfin} />
+      <h1 className='shark-tank-title'> Shark Tank</h1>
+      <img className='header-fin-right' src={sharkfin} />
+    </div>
     <div className='shark-tank d-flex flex-row flex-wrap justify-content-around'>
       {studentArr.map((student) => (
         <LiveStudent
