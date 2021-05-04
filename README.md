@@ -19,8 +19,9 @@ https://agitated-almeida-2dbf71.netlify.app/
 - There is a slight chance the shark will miss, especially as fewer students are left in the tank.
   
 ## Screenshots
-![Tank](https://user-images.githubusercontent.com/51683901/116959424-383a0b80-ac63-11eb-86f3-1e14d94d9df0.png)
-![Graveyard](https://user-images.githubusercontent.com/51683901/116958196-5e5dac80-ac5f-11eb-8c4f-aa5062bd404c.png)
+![Tank](https://user-images.githubusercontent.com/51683901/116959792-58b69580-ac64-11eb-80f1-0ba5b254cf36.png)
+![Graveyard](https://user-images.githubusercontent.com/51683901/116959797-5b18ef80-ac64-11eb-98b9-34550603b791.png)
+
 
 ## Loom Video
 https://www.loom.com/share/d16f2d341eef43e3918a7f556a399e46
