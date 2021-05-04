@@ -15,7 +15,7 @@
 - The user can cause the shark to attack a student by clicking the Shark Attack! button
   
 ## Screenshots
- ![Tank](https://user-images.githubusercontent.com/51683901/116958186-5aca2580-ac5f-11eb-82dd-3aab0329350b.png)
+![Tank](https://user-images.githubusercontent.com/51683901/116959424-383a0b80-ac63-11eb-86f3-1e14d94d9df0.png)
 ![Graveyard](https://user-images.githubusercontent.com/51683901/116958196-5e5dac80-ac5f-11eb-8c4f-aa5062bd404c.png)
 
 ## Loom Video
