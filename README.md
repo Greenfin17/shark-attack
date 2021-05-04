@@ -3,7 +3,7 @@
 ## Overview
 - This fantasy site has Nashville Software School colleagues swimming in a shark tank.
 - When clicking a button, the resident shark attacks a random student.
-- The attacked students are showin in a graveyard.
+- The attacked students are shown in a graveyard.
   
 ## Site link
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2e582bc-9b47-4325-bac5-fe70d6d85e32/deploy-status)](https://app.netlify.com/sites/agitated-almeida-2dbf71/deploys)
