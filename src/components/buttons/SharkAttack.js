@@ -13,7 +13,7 @@ const SharkAttack = ({
     setDeceasedArr(dearlyBeloved());
   };
   return (
-    <Button className='btn btn-success btn-lg mb-4'
+    <Button className='btn btn-danger btn-lg mb-4'
       onClick={handleClick}>Shark Attack!</Button>
   );
 };
