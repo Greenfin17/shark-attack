@@ -15,6 +15,8 @@ https://agitated-almeida-2dbf71.netlify.app/
 
 ## Features
 - The user can cause the shark to attack a student by clicking the Shark Attack! button
+- A random student is sent to the graveyard on each click.
+- There is a slight chance the shark will miss, especially as fewer students are left in the tank.
   
 ## Screenshots
 ![Tank](https://user-images.githubusercontent.com/51683901/116959424-383a0b80-ac63-11eb-86f3-1e14d94d9df0.png)
