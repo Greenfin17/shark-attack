@@ -7,6 +7,7 @@
   
 ## Site link
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2e582bc-9b47-4325-bac5-fe70d6d85e32/deploy-status)](https://app.netlify.com/sites/agitated-almeida-2dbf71/deploys)
+https://agitated-almeida-2dbf71.netlify.app/
 
 ## User
 - The user is most likely a classmate expressing their competitive side.
