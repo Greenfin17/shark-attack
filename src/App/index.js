@@ -11,7 +11,6 @@ function App() {
   useEffect(() => {
     setStudentArr(livingStudents());
     setDeceasedArr(dearlyBeloved());
-    console.warn(deceasedArr);
   }, []);
 
   return (
