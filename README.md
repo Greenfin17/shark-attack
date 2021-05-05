@@ -24,5 +24,3 @@ https://agitated-almeida-2dbf71.netlify.app/
 
 ## Loom Video
 https://www.loom.com/share/d16f2d341eef43e3918a7f556a399e46
-  
-
